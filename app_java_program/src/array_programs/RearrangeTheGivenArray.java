@@ -22,9 +22,7 @@ public class RearrangeTheGivenArray {
 		int n=arr.length;
 		System.out.println(n);
 		int[] reArrangeArray = new int[n];
-		for (int i : reArrangeArray) {
-			System.out.println(i);
-		}
+		
 		for (int i = 0; i < n; i++) {
 			reArrangeArray[i] = arr[n-i-1];
 
