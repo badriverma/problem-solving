@@ -15,7 +15,7 @@ public class FindTheMedianOfGivenArray {
 		int[] ans = mergeArray(arr1,arr2);
 
 		if(ans.length %2==0) {
-			double result1 = (double)(ans[ans.length/2 + ans.length/2-1])/2;
+			double result1 = (double)(ans[ans.length/2] + ans[ans.length/2-1])/2;
 			return result1;
 		}else {
 			double result2 = (double)(ans[ans.length/2]);
