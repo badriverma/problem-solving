@@ -20,7 +20,6 @@ public class RearrangeTheGivenArray {
 
 	private static void reArrangeTheArray(int[] arr) {
 		int n=arr.length;
-		System.out.println(n);
 		int[] reArrangeArray = new int[n];
 		
 		for (int i = 0; i < n; i++) {
