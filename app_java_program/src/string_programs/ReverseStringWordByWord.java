@@ -22,7 +22,7 @@ public class ReverseStringWordByWord {
 				currentString.append(ch);
 			}
 		}
-		
+		 
 		reversedString.insert(0, currentString);
 		
 		return reversedString.toString();
